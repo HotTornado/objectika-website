@@ -20,10 +20,37 @@
   color: var(--objectika-dark-text-color) !important;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   overflow-x: hidden;
 }
 
 .carousel-image {
   height: 600px !important;
+}
+
+.about-us-carousel .owl-next {
+  position: absolute;
+  height: 100%;
+  width: 200px;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+}
+.about-us-carousel .owl-next:hover {
+  background-color: rgba(0, 0, 0, 0.3137254902);
+}
+.about-us-carousel .owl-prev {
+  position: absolute;
+  height: 100%;
+  width: 200px;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+.about-us-carousel .owl-prev:hover {
+  background-color: rgba(0, 0, 0, 0.3137254902);
 }

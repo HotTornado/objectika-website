@@ -1,4 +1,4 @@
-$(".about-us").owlCarousel({
+$(".about-us-carousel").owlCarousel({
   loop: true,
   margin: 10,
   nav: true,
