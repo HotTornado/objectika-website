@@ -6,17 +6,17 @@
   }
   
   .objectika-dark-primary-color {
-    background-color: var(--objectika-dark-primary-color);
-    color: var(--objectika-dark-text-color);
+    background-color: var(--objectika-dark-primary-color) !important;
+    color: var(--objectika-dark-text-color) !important;
   }
   
   .objectika-dark-secondary-color {
-      background-color: var(--objectika-dark-secondary-color);
-      color: var(--objectika-dark-text-color);
+      background-color: var(--objectika-dark-secondary-color) !important;
+      color: var(--objectika-dark-text-color) !important;
   }
   
   .objectika-dark-component-color {
-      background-color: var(--objectika-dark-component-color);
-      color: var(--objectika-dark-text-color);
+      background-color: var(--objectika-dark-component-color) !important;
+      color: var(--objectika-dark-text-color) !important;
   }
   

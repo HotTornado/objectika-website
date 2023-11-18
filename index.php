@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Objectika</title>
+    <?php include "assets/components/head.php" ?>
 </head>
-<body>
-    
+<body class="objectika-dark-primary-color">
+    <?php include "assets/components/header.php" ?>
+    <?php include "assets/components/js.php" ?>
 </body>
 </html>
