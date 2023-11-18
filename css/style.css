@@ -1,8 +1,8 @@
 :root {
   --objectika-dark-primary-color: #191919;
   --objectika-dark-secondary-color: #202020;
-  --objectika-dark-component-color: #03001C;
-  --objectika-dark-text-color: #FFFFFF;
+  --objectika-dark-component-color: #03001c;
+  --objectika-dark-text-color: #ffffff;
 }
 
 .objectika-dark-primary-color {
@@ -18,4 +18,12 @@
 .objectika-dark-component-color {
   background-color: var(--objectika-dark-component-color) !important;
   color: var(--objectika-dark-text-color) !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.carousel-image {
+  height: 600px !important;
 }
