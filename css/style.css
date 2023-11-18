@@ -11,11 +11,11 @@
 }
 
 .objectika-dark-secondary-color {
-	background-color: var(--objectika-dark-secondary-color);
-	color: var(--objectika-dark-text-color);
+  background-color: var(--objectika-dark-secondary-color);
+  color: var(--objectika-dark-text-color);
 }
 
 .objectika-dark-component-color {
-	background-color: var(--objectika-dark-component-color);
-	color: var(--objectika-dark-text-color);
+  background-color: var(--objectika-dark-component-color);
+  color: var(--objectika-dark-text-color);
 }

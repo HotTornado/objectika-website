@@ -1,0 +1,22 @@
+:root {
+    --objectika-dark-primary-color: #191919;
+    --objectika-dark-secondary-color: #202020;
+    --objectika-dark-component-color: #03001C;
+    --objectika-dark-text-color: #FFFFFF;
+  }
+  
+  .objectika-dark-primary-color {
+    background-color: var(--objectika-dark-primary-color);
+    color: var(--objectika-dark-text-color);
+  }
+  
+  .objectika-dark-secondary-color {
+      background-color: var(--objectika-dark-secondary-color);
+      color: var(--objectika-dark-text-color);
+  }
+  
+  .objectika-dark-component-color {
+      background-color: var(--objectika-dark-component-color);
+      color: var(--objectika-dark-text-color);
+  }
+  
