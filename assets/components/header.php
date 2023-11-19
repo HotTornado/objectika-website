@@ -1,7 +1,6 @@
 <nav class="d-none d-lg-block sticky-top objectika-dark-primary-color">
-    <div class="container-fluid px-0">
-        <div class="container px-0 d-flex justify-content-between align-items-center"
-            style="height: 120px">
+    <div class="container-fluid">
+        <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 120px">
             <div class="nav-bar-middle position-absolute top-50 start-50 translate-middle">
                 <div class="nav-bar-icon">
                     <a href="index.php">
@@ -30,7 +29,7 @@
         <div class="nav-bar-middle">
             <div class="nav-bar-icon">
                 <a href="index.php">
-                    <img src="assets/images/objectika-text-transparent" height="45" alt="objectika-logo">
+                    <img src="assets/images/objectika-text-transparent" alt="objectika-logo" class="objectika-logo-mobile">
                 </a>
             </div>
         </div>

@@ -3,6 +3,8 @@
   --objectika-dark-secondary-color: #202020;
   --objectika-dark-component-color: #03001c;
   --objectika-dark-text-color: #ffffff;
+  --objectika-dark-text-color-025: rgba(255, 255, 255, 0.500);
+  --animation-time: 0.5s;
 }
 
 .objectika-dark-primary-color {
@@ -20,40 +22,121 @@
   color: var(--objectika-dark-text-color) !important;
 }
 
+// * {
+// transition: all ease var(--animation-time);
+// }
+
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 body {
   overflow-x: hidden;
 }
 
+.objectika-logo-mobile {
+  height: 40px;
+}
+
 .carousel-image {
   height: 600px !important;
 }
 
-.about-us-carousel {
-  .owl-next {
-    position: absolute;
-    height: 100%;
-    width: 200px;
-    top: 50%;
-    right: 0%;
-    transform: translate(0%, -50%);
-    &:hover {
-        background-color: #00000050;
+.about-us {
+  .about-us-carousel {
+    .owl-next {
+      position: absolute;
+      height: 100%;
+      width: 200px;
+      top: 50%;
+      right: 0%;
+      transform: translate(0%, -50%);
+      transition: all ease var(--animation-time);
+      &:hover {
+        background: rgb(25, 25, 25);
+        background: linear-gradient(
+          90deg,
+          rgba(25, 25, 25, 0) 0%,
+          rgba(25, 25, 25, 1) 100%
+        );
+      }
+    }
+
+    .owl-prev {
+      position: absolute;
+      height: 100%;
+      width: 200px;
+      top: 50%;
+      left: 0%;
+      transform: translate(0%, -50%);
+      transition: all ease var(--animation-time);
+      &:hover {
+        background: rgb(25, 25, 25);
+        background: linear-gradient(
+          90deg,
+          rgba(25, 25, 25, 1) 0%,
+          rgba(25, 25, 25, 0) 100%
+        );
+      }
+    }
+
+    .owl-dots {
+      display: none;
     }
   }
-  
-  .owl-prev {
-    position: absolute;
-    height: 100%;
-    width: 200px;
-    top: 50%;
-    left: 0%;
-    transform: translate(0%, -50%);
-    &:hover {
-        background-color: #00000050;
+}
+
+.our-team-card-social-media-back {
+  width: 48px;
+  height: 48px;
+}
+
+// input:focus > label::after {
+//   background-color: var(--objectika-dark-secondary-color);
+//   color: orange !important;
+// }
+
+.form-floating > .form-control:focus ~ label::after,
+.form-floating > .form-control:not(:placeholder-shown) ~ label::after,
+.form-floating > .form-control-plaintext ~ label::after,
+.form-floating > .form-select ~ label::after {
+  background-color: var(--objectika-dark-secondary-color);
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-control-plaintext ~ label,
+.form-floating > .form-select ~ label {
+  color: rgba(var(--objectika-dark-text-color-025) 1.000);
+}
+
+@media only screen and (max-width: 991px) {
+  .carousel-image {
+    height: 300px !important;
+  }
+
+  .about-us {
+    .about-us-carousel {
+      .owl-next {
+        width: 100px;
+      }
+
+      .owl-prev {
+        width: 100px;
+      }
     }
+  }
+
+  .about-us-content {
+    position: static !important;
+    top: 0 !important;
+    left: 0 !important;
+    transform: translate(0%, 0%) !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .objectika-logo-mobile {
+    height: 25px;
   }
 }

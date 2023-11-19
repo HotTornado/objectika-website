@@ -1,4 +1,4 @@
-<div class="container position-absolute start-50 top-100 translate-middle z-1">
+<div class="container position-absolute my-5 start-50 top-100 translate-middle z-1 about-us-content">
     <div class="row justify-content-end">
         <div class="col-12 d-flex flex-column gap-2 p-5 rounded-4 objectika-dark-secondary-color">
             <h1 class="m-0">Who we are ?</h1>
