@@ -1,16 +1,16 @@
 <footer>
     <div class="container-fluid">
         <div class="container mx-auto row">
-            <div class="col-12 col-md-6 mx-0 px-0 row">
-                <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 mx-0 px-0 row">
+                <div class="col-12 col-md-6">
                     <img src="assets/images/objectika-transparent.png" class="w-100" alt="objectika-logo-full">
                 </div>
-                <div class="col-12 col-lg-6 pb-5">
+                <div class="col-12 col-md-6 pb-5">
                     <h2>Contact</h2>
                     <div class="py-3"></div>
                     <div class="d-flex justify-content-center align-items-center gap-2">
                         <div
-                            class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-primary-color our-team-card-social-media-back">
+                            class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-component-color our-team-card-social-media-back">
                             <img src="assets/icons/envelope-fill.svg" width="32" height="32" alt="mail">
                         </div>
                         <a href="mailto:info@objectika.com" class="text-decoration-none">
@@ -20,40 +20,50 @@
                     <div class="py-3"></div>
                     <div class="row justify-content-center gap-1">
                         <div class="d-flex justify-content-center col-3">
-                            <div
-                                class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-primary-color our-team-card-social-media-back">
-                                <img src="assets/icons/instagram.svg" width="32" height="32" alt="instagram">
+                            <div>
+                                <div
+                                    class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-component-color our-team-card-social-media-back">
+                                    <img src="assets/icons/instagram.svg" width="32" height="32" alt="instagram">
+                                </div>
                             </div>
                         </div>
                         <div class="d-flex justify-content-center col-3">
-                            <div
-                                class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-primary-color our-team-card-social-media-back">
-                                <img src="assets/icons/twitter-x.svg" width="32" height="32" alt="twitter/x">
+                            <div>
+                                <div
+                                    class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-component-color our-team-card-social-media-back">
+                                    <img src="assets/icons/twitter-x.svg" width="32" height="32" alt="twitter/x">
+                                </div>
                             </div>
                         </div>
                         <div class="d-flex justify-content-center col-3">
-                            <div
-                                class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-primary-color our-team-card-social-media-back">
-                                <img src="assets/icons/linkedin.svg" width="32" height="32" alt="linkedin">
+                            <div>
+                                <div
+                                    class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-component-color our-team-card-social-media-back">
+                                    <img src="assets/icons/linkedin.svg" width="32" height="32" alt="linkedin">
+                                </div>
                             </div>
                         </div>
                         <div class="d-flex justify-content-center col-3">
-                            <div
-                                class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-primary-color our-team-card-social-media-back">
-                                <img src="assets/icons/youtube.svg" width="32" height="32" alt="youtube">
+                            <div>
+                                <div
+                                    class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-component-color our-team-card-social-media-back">
+                                    <img src="assets/icons/youtube.svg" width="32" height="32" alt="youtube">
+                                </div>
                             </div>
                         </div>
                         <div class="d-flex justify-content-center col-3">
-                            <div
-                                class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-primary-color our-team-card-social-media-back">
-                                <img src="assets/icons/tiktok.svg" width="32" height="32" alt="tiktok">
+                            <div>
+                                <div
+                                    class="d-flex justify-content-center align-items-center rounded-3 objectika-dark-component-color our-team-card-social-media-back">
+                                    <img src="assets/icons/tiktok.svg" width="32" height="32" alt="tiktok">
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div class="col-12 col-md-6 mx-0">
+            <div class="col-12 col-lg-6 mx-0">
                 <h2>Message us</h2>
                 <div class="py-3"></div>
                 <form action="" class="d-flex flex-column gap-2">

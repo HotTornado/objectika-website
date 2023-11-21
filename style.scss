@@ -4,7 +4,7 @@
   --objectika-dark-component-color: #03001c;
   --objectika-dark-text-color: #ffffff;
   --objectika-dark-text-color-025: rgba(255, 255, 255, 0.500);
-  --animation-time: 0.5s;
+  --animation-time: 0.2s;
 }
 
 .objectika-dark-primary-color {
@@ -22,9 +22,9 @@
   color: var(--objectika-dark-text-color) !important;
 }
 
-// * {
-// transition: all ease var(--animation-time);
-// }
+* {
+transition: all ease var(--animation-time);
+}
 
 ::-webkit-scrollbar {
   display: none;

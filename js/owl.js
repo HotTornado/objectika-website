@@ -6,8 +6,8 @@ $(".about-us-carousel").owlCarousel({
   autoplayTimeout: 3000,
   autoplayHoverPause: true,
   navText: [
-    "<i class='bi bi-chevron-left text-light'></i>",
-    "<i class='bi bi-chevron-right text-light'></i>",
+    "<i class='bi bi-chevron-left text-light fs-6'></i>",
+    "<i class='bi bi-chevron-right text-light fs-6'></i>",
   ],
   responsive: {
     0: {
